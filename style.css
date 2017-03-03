@@ -10,9 +10,9 @@ body{
 	border-style: solid;
 	border-width: 5px;
 	float:left;
-	max-height:50%;
-	max-width: 50%;
-	display: inline-block;
+	max-height:80%;
+	max-width: 80%;
+	display: block;
 }
 
 p{
@@ -29,6 +29,7 @@ h2{
 	margin-top: 10px;
 	display: block;
 	padding-right: 0%;
+	max-width: 90%;
 
 }
 #Education{
@@ -42,6 +43,12 @@ h2{
 .BtnContact{
 	margin-bottom: 5%;
 }
+.Contact{
+	max-width: 90%;
+}
+.Hobbies{
+	max-width: 90%;
+}
 
 @media screen and (min-width: 600px) {
 #Img{
@@ -49,8 +56,8 @@ h2{
 	border-style: solid;
 	border-width: 5px;
 	float:left;
-	max-height:50%;
-	max-width: 50%;
+	max-height:30%;
+	max-width: 30%;
 	display: block;
 }
 
